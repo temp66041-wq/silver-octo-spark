@@ -1,0 +1,7 @@
+name: Web app workflow
+on: 
+workflow_despatch:
+jobs: 
+test:
+runs-on: ubuntu-latest steps:
+-run: echo "Web Application running"
